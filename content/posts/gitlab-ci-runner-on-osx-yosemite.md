@@ -77,6 +77,9 @@ This "script" that will start the runner and keep it running. Launchd is what OS
 
       <key>GroupName</key>
       <string>staff</string>
+
+      <key>SessionCreate</key>
+      <true/>
       
       <key>RunAtLoad</key>
       <true/>
